@@ -26,6 +26,8 @@ const input = controls.querySelector('input');
 
 createButton.addEventListener('click', () => {
   createBoxes(input.value);
+  console.log(input.value);
+  
 });
 
 destroyButton.addEventListener('click', () => {
